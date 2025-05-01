@@ -1,0 +1,108 @@
+body {
+    background-color: #7a8beb ;
+    
+}
+
+header {
+        background-color: rgb(23, 35, 207);
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        padding: 10px;
+        text-align: center;
+}
+header p {
+    margin: o;
+    font-size: 0.9em;
+}
+
+nav a {
+    background-color: rgb(31, 31, 163) ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e9e4e4;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: sticky;
+    top: opx;
+}
+
+nav ul {
+    background-color: rgb(31, 31, 163);
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}   
+
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li  a:hover{
+    color: #474c70;
+    background-color: #0d0c6b;
+    
+}
+section {
+    margin: 20px 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, o, 1);
+
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#customers td, #customers td {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers th:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6570ec;
+    color: rgb(225, 239, 243);
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4c60af;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
