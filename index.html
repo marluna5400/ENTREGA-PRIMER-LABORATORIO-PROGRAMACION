@@ -6,35 +6,43 @@
     <title>Hoja de vida</title>
 </head>
 <body>
+
     <header>
         <h1>MANUEL ANTONIO MARULANDA LUNA</h1>
         <br>
-<div>
-        <img src="foto.jpg" alt="foto Manuel" width="150" height="200">
-
+      <div>
         <p>Tecnico en Sistemas</p>
         <p>Jefe de Bodega</p>
         <p>manolito5400@gmail.com</p>
-
-</div>       
+      </div>
     </header>
+
+<nav>
+    <ul>
+        <li><a href="#experiencia">Experiencia Profesional</a></li>
+        <li><a href="#formacion">Formacion Academica</a></li>
+        <li><a href="#idiomas">Idiomas</a></li>
+        <li><a href="#conocimiento">Conocimiento</a></li>
+        <li><a href="#formulario">Formulario de Contacto</a></li>
+
+    </ul>
+</nav>
+
+
     <section id="experiencia">
         <h2>Experiencia Profesional</h2>
         <ul>
-            <li><a href="https://vamos.com.co/" target="_blank">Vamos</li><br>
-            <li><a href="https://casarepuestos.com.co/" target="_blank">Casa Repuestos</a></li><br>
-            <li>MANNY Maniacs</li><br>
-            <li>Variedades jACKY</li><br>
+            <li><a href="https://vamos.com.co/" target="_blank">Vamos</li>
+            <li><a href="https://casarepuestos.com.co/" target="_blank">Casa Repuestos</a></li>
+            <li>MANNY Maniacs</li>
+            <li>Variedades jACKY</li>
         </ul>
-        </section>
+    </section>    
     
-    </section>
 
     <section id="formacion">
         <h2>Formacion Academica</h2>
-
         <ul>
-            
             <li><a href="https://talentotech.gov.co/portal/" target="_blank">TALENTO TECH</li><br>
             <li><a href="https://www.uniajc.edu.co/" target="_blank">instituto Camacho Perea</a></li>
                 <p>Curso informatica Office</p>
@@ -43,5 +51,96 @@
     
         </ul>
     </section>
+
+    <section id="idiomas">
+        <h2>Idiomas</h2>
+    
+    <table id="customers">
+        <tr>
+            <th>IDIOMA</th>
+            <th>NIVEL</th>
+        </tr>
+        <tr>
+            <td>Español</td>
+            <td>Idioma Nativo</td>
+        </tr>
+        <tr>
+            <td>Ingles</td>
+            <td>Lectura-Escritura</td>
+        </tr>
+
+    </table>
+    </section>
+
+    <section id="conocimiento">
+        <h1>Conocimiento</h1>
+
+    <table id="customers">
+        <tr>
+            <th>Conocimiento</th>
+            <th>Nivel</th>
+            <th>Adquirido desde</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Basico</td>
+            <td>2025-04</td>
+        </tr>
+        <tr>
+            <td>Git</td>
+            <td>Basico</td>
+            <td>2025-04</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Basico</td>
+            <td>2025-04</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Basico</td>
+            <td>2025-05</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Basico</td>
+            <td>2025-05</td>
+        </tr>
+    </table>
+    </section>
+
+    <setcion id="formulario">
+        <h1>Formulario de Contacto</h1>
+<div>
+        <form action="/action_page.php">
+            <label for="fname">Nombres:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Su Nombre..">
+
+        
+            <label for="lname">Apellidos:</label>
+            <input type="text" id="lname" name="lastname" placeholder="Su Apellido..">
+    
+        
+            <label for="name">Asunto:</label>
+            <input type="text" id="name" name="Asunto"required>
+        
+
+            <label for="email">Email</label>
+            <input type="text" id="name" name="email"required>
+        
+        
+            <label for="number">Telefono</label>
+            <input type="text" id="name" name="number"required>
+
+        
+            <label for="name">MENSAJE</label>
+            <textarea name="message" rows="10" cols="30"></textarea><br>
+
+
+        <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    </setcion>
 </body>
 </html>
